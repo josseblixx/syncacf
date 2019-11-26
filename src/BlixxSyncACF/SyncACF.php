@@ -15,7 +15,6 @@
 
             self::instance()->hook();
 
-
         }
 
 
