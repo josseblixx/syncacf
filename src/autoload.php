@@ -1,0 +1,4 @@
+<?php
+
+    
+    BlixxSyncACF\SyncACF::sync();
