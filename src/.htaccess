@@ -1,0 +1,7 @@
+
+# do not allow access to this folder.
+# we copy this file to /wp-content/themes/xxx/advanced-custom-fields/
+
+deny from all
+
+

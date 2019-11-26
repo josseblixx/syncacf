@@ -39,8 +39,12 @@
 
                 if (!file_exists($path)){
                     if (!(mkdir($path) && is_dir($path))){
-                        throw new \Exception('Cannot create sync folder for ACF');
+                        throw new \Exception('Cannot create sync folder for ACF (' . $path . ')');
                     }
+                }
+
+                if (!file_exists($path . '/.htaccess')){
+                    copy(__DIR__ . '/../.htaccess', $path . '/.htaccess');
                 }
 
                 // return
