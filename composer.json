@@ -2,6 +2,7 @@
     "name": "blixx/syncacf",
     "description": "Syncs Advanced Custom Fields with GIT",
     "type": "Library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Josse",
