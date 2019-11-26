@@ -1,0 +1,17 @@
+{
+    "name": "blixx/syncacf",
+    "description": "Syncs Advanced Custom Fields with GIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Josse",
+            "email": "josse@blixx.nl"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BlixxSyncACF\\": "src/BlixxSyncACF/"
+        }
+    }
+}
