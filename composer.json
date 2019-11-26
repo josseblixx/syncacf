@@ -1,7 +1,7 @@
 {
     "name": "blixx/syncacf",
     "description": "Syncs Advanced Custom Fields with GIT",
-    "type": "library",
+    "type": "Library",
     "version": "1.0.0",
     "authors": [
         {
