@@ -32,6 +32,10 @@
         private function hook()
         {
 
+            if (!function_exists('add_filter')) {
+                return;
+            }
+
             add_filter('acf/settings/save_json', function () {
 
                 // update path
